@@ -15,10 +15,10 @@
 define('LIVE', TRUE);
 
 // Admin contact address:
-define('EMAIL', 'gjschorgl@ksu.edu');
+define('EMAIL', 'gschorgl@gmail.com');
 
 // Site URL (base for all redirections):
-define ('BASE_URL', 'http://10.136.212.37/gjschorgl/FinalPoject/html/');
+define ('BASE_URL', 'gschorgl.com');
 
 // Location of the MySQL connection script:
 define ('MYSQL', '../mysqli_connect.php');

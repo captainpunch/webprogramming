@@ -12,7 +12,7 @@
 // ************ SETTINGS ************ //
 
 // Flag variable for site status:
-define('LIVE', TRUE);
+define('LIVE', FALSE);
 
 // Admin contact address:
 define('EMAIL', 'gschorgl@gmail.com');

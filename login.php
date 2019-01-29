@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if ($e && $p) { // If everything's OK.
 	require (MYSQL);
 		// Query the database:
-		$q = "SELECT `user_id`, `first_name`, `user_level` FROM `users` WHERE `pass` = SHA1('$p') AND `email` = '$e'";		
+		$q = "SELECT `user_id`, `first_name`, `user_level` FROM `users2` WHERE `pass` = SHA1('$p') AND `email` = '$e'";		
 		$r = mysqli_query ($dbc, $q) or trigger_error("Query: $q\n<br />MySQL Error: " . mysqli_error($dbc));
 		
 		if (@mysqli_num_rows($r) == 1) { // A match was made.

@@ -12,7 +12,7 @@ require (MYSQL);
 // Number of records to show per page:
 $display = 10;
 
-// Determine how many pages there are...
+// Determine how many pages there are...ssssssssss
 if (isset($_GET['p']) && is_numeric($_GET['p'])) { // Already been determined.
 	$pages = $_GET['p'];
 } else { // Need to determine.

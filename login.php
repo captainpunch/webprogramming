@@ -44,9 +44,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 				echo '!';
 			} 
 			// Redirect the user:
-			$url = BASE_URL; // Define the URL.
+			$url = 'index.php'; // Define the URL.
 			ob_end_clean(); // Delete the buffer.
-			header("Location: $url");
+			header("Location: 'index.php'");
 			
 			exit(); // Quit the script.
 			include ('includes/footer.html');
